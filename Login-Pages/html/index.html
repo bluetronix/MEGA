@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login MEGA</title>
+    
+    <script src="../index.js" ></script>
+</head>
+<body>
+
+<center>
+    <div class="login">
+        <link href="../css/index.css" rel="stylesheet" ></li>
+    <h1>Welcome Back Folk!</h1>
+    <form name="myForm" action="/home.html" onsubmit="return validateForm()" method="post">
+        <fieldset>
+            <legend> LOGIN </legend>
+            <label for="Email">Email</label> 
+            <input type="text" id="email" placeholder="Enter Your Email" required >
+            <input type="reset" value="RESET" style="width: fit-content;">
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Your Password" required>
+            <br><br>
+    
+            <label for="category">Login As:</label>
+            <select>
+                <option> food</option>
+                <option> meteology</option>
+
+                <option> market</option>
+
+                <option> funny things</option>
+            </select>
+            <br><br>
+            <center>
+                <input type="submit" value="LOGIN">
+            </center>
+        </fieldset>
+    </form>
+    <br><br>
+    </div>
+</center>
+</div>
+</body>
+</html>
